@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Awk is choosen because it's fast and portable. You can use gawk, traditional awk or even the lightning fast mawk.
+# Awk is choosen because it's fast and portable. You can use gawk, original awk or even the lightning fast mawk.
 # The mysqldump file is traversed only once.
 
 # Converts a mysqldump file into a Sqlite 3 compatible file. It also extracts the MySQL `KEY xxxxx` from the
