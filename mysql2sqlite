@@ -42,7 +42,6 @@ BEGIN{ FS=",$" }
 	if (prev) print prev ","
 	prev = $1
 }
-}
 
 # `KEY` lines are extracted from the `CREATE` block and stored in array for later print 
 # in a separate `CREATE KEY` command. The index name is prefixed by the table name to 
